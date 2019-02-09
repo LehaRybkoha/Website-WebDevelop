@@ -2,9 +2,8 @@
 	html {
 		font-size: 16px;
 	}
-
-	.container {
-		width: rem(970px);
+	.parallax__item-desc {
+		white-space: normal;
 	}
 }
 
@@ -12,9 +11,11 @@
 	html {
 		font-size: rem(15px);
 	}
-
-	.container {
-		width: rem(750px);
+	.nav-item {
+		margin-right: rem(10px);
+	}
+	.skills-right {
+		height: 60vh;
 	}
 }
 
@@ -22,18 +23,10 @@
 	html {
 		font-size: rem(14px);
 	}
-
-	.container {
-		width: rem(768px);
-	}
 }
 @media screen and (max-width: 650px) { //Small Tablets
 	html {
 		font-size: rem(14px);
-	}
-
-	.container {
-		width: rem(480px);
 	}
 }
 
@@ -41,12 +34,4 @@
 	html {
 		font-size: rem(12px);
 	}
-
-	.container {
-		min-width: rem(320px);
-	}
-}
-
-@media all and (max-width: 1200px) {
-
 }

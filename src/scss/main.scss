@@ -1,5 +1,10 @@
 //colors
-$bg-header: #e9e9e9;
+$bg-grey: #e9e9e9;
+$bg-lightGrey: #f8f9f9;
+$text-dark: #191919;
+$text-title: #1d1d1d;
+$text-opacity: #787878;
+$text-lightGreen: #10c9c3;
 
 // layout
 @import "_misc/mixins"; 
@@ -8,6 +13,13 @@ $bg-header: #e9e9e9;
 
 //sections-setting
 @import "sections/section";
+
+//sections
+@import "sections/header";
+@import "sections/mainSection";
+@import "sections/about";
+@import "sections/skills";
+@import "sections/parallax";
 
 //media
 @import "adaptive/media";

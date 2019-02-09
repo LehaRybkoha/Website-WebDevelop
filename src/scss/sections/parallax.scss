@@ -1,0 +1,39 @@
+.parallax {
+	height: 25vh;
+	background-color: #10c9c3;
+}
+
+.parallax__item {
+	margin-right: rem(70px);
+}
+
+.parallax__item-img {
+	width: 41px;
+	height: 41px;
+}
+
+.parallax-text {
+	font-family: Montserrat;
+	color: #fff;
+}
+
+.parallax__item-title {
+	margin-left: rem(50px);
+}
+
+.parallax__item-title-text {
+	font-weight: 600;
+	font-size: rem(20px);
+	margin-bottom: rem(16px);
+}
+
+.parallax__item-desc {
+	font-size: rem(14px);
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.owl-carousel img {
+	width: inherit !important;
+	height:inherit !important;
+}

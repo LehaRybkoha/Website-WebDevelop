@@ -1,0 +1,33 @@
+.slills {
+	height: 60vh;
+	background-color: $bg-lightGrey;
+}
+
+.skills-left {
+	background-color: $bg-lightGrey;
+}
+
+.skills-title-text {
+	padding: rem(165px) 0 rem(41px) 0;
+}
+
+.slills-title__list {
+	padding: 0 0 rem(165px) 0;
+}
+
+.skills-title__item-txt {
+	font-family: Montserrat;
+	font-weight: 500;
+	color: #000;
+	font-size: rem(16px);
+	line-height: 30px;
+	margin-bottom: rem(12px);
+}
+
+.skills-title__item-img {
+	margin-bottom: rem(41px);
+}
+
+.skills-right {
+	background-color: $bg-grey;
+}

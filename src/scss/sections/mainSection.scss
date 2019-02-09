@@ -1,0 +1,39 @@
+.main {
+	background-color: $bg-grey;
+	height: 90vh;
+	margin-bottom: rem(100px);
+}
+
+
+.main-title_text {
+	color: $text-title;
+	font-size: rem(50px);
+	font-weight: 600;
+	line-height: 48px;
+	margin-bottom: rem(32px);
+}
+
+.main-title_desc {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: rem(20px);
+	font-weight: 400;
+	line-height: 28px;
+	color: $text-opacity;
+	max-width: rem(475px);
+	margin-bottom: rem(32px);
+}
+
+.main-tittle_btn {
+	background: $text-lightGreen;
+	color: white;
+	font-size: rem(12px);
+	font-weight: 500;
+	padding: rem(23px) rem(45px) !important;
+	&:hover {
+		background: $text-dark;
+	}
+
+	&:active {
+		background: $text-dark;
+	}
+}

@@ -1,0 +1,25 @@
+.header {
+	background: $bg-grey;
+	padding: rem(20px) 0;
+}
+
+.nav-item {
+	margin-right: rem(15px);
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: rem(14px);
+	color: $text-dark;
+	font-weight: 600;
+	line-height: 24px;
+	&:hover {
+		color: $text-lightGreen;
+	}
+
+	&:active {
+		color: $text-lightGreen;
+	}
+}
+

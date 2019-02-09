@@ -1,38 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <title>Hello, world!</title>
 
   </head>
   <body>
 
-  	
-  	<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  		<a href="#" class="navbar-brand">
-  			<img src="images/1Clogo.png" width="30" height="30" alt="logo">
-  		</a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-extended="false" aria-label="Toggle nav">
-  			<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div id="navbarSupportedContent" class="collapse navbar-collapse">
-  			<ul class="navbar-nav mr-auto">
-  				<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-  				<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-  				<li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-  			</ul>
-  			<form class="form-inline my-2 my-lg-0">
-  				<input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
-  				<button class="btn btn-outline-success my-2 my-sm-0" aria-controls="">Search</button>
-  			</form>
-  		</div>
-  	</nav> -->
+  	<div class="wrapper">
+  		<header id="header" class="header bg-custom">
+  			<div class="container">
+  				<nav class="navbar navbar-expand-md d-flex align-items-start bg-custom">
+  					<div class="navbar-left col-lg-3 col-md-2 col-sm-10 col-8">
+  						<a href="#" class="navbar-brand">
+  							<img src="/images/logo.png" alt="logo">
+  						</a>
+  					</div>
+  					<div class="navbar-right col-lg-9 col-md-10 col-sm-2 col-4">
+  						<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-extended="false" aria-label="Toggle nav">
+  							<span class="navbar-toggler-icon"></span>
+  						</button>
+  						<div id="navbarSupportedContent" class="collapse navbar-collapse">
+  							<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+  								<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">Process</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+  								<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+  							</ul>
+  						</div>
+  					</div>
+  				</nav>
+  			</div>
+  		</header>
+
+  		<!-- Main Section -->
+
+  		<section id="main" class="section main d-flex align-items-center">
+  			<div class="container">
+  				<div class="row">
+  					<div class="main-left col-xl-7 col-lg-4"></div>
+  					<div class="main-right main-title col-xl -7 col-lg-8">
+  						<h1 class="main-title_text section-title">We Design and Develop</h1>
+  						<p class="main-title_desc section-desc">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps.</p>
+  						<button type="button" class="btn btn-lg main-tittle_btn text-uppercase">Contact us</button>
+  					</div>
+  				</div>
+  			</div>
+  		</section>
+
+  		<!-- About -->
+
+  		<section id="about" class="section about d-flex align-items-center">
+  			<div class="container">
+  				<div class="row justify-content-center">
+  					<div class="about-title d-flex flex-column justify-content-center">
+  						<h2 class="about-title_text section-title">About Us</h1>
+  						<p class="about-title_desc section-desc">Divide have don't man wherein air fourth. Own itself make have night won't make. A you under Seed appear which good give. Own give air without fowl moveth dry first heaven fruit, dominion she'd won't very all.</p>
+  					</div>
+  					<img src="/images/signature.png" alt="Signature" class="about-title_img m-x-auto d-block">
+  				</div>
+  			</div>
+  		</section>
+
+  		<!-- Professonal Skills -->
+
+  		<sections id="skills" class="sections skills d-flex align-items-center">
+  			<div class="container-fluid">
+  				<div class="row">
+  					<div class="skills-left skills-title col-lg-6">
+  						<h2 class="skills-title-text section-title">Professional Skills</h2>
+  						<ul class="slills-title__list">
+  							<li class="skills-title__item d-flex flex-column">
+  								<span class="skills-title__item-txt">UI/UX DESIGN &emsp;75%</span>
+  							</li>
+  							<img src="/images/svg/line1.svg" alt="" class="skills-title__item-img img-fluid">
+  							<li class="skills-title__item d-flex flex-column">
+  								<span class="skills-title__item-txt">WEB DEVELOPMENT &emsp;90%</span>
+  							</li>
+  							<img src="/images/svg/line2.svg" alt="" class="skills-title__item-img img-fluid">
+  							<li class="skills-title__item d-flex flex-column">
+  								<span class="skills-title__item-txt">MARKETING &emsp;65%</span>
+  							</li>
+  							<img src="/images/svg/line3.svg" alt="" class="skills-title__item-img img-fluid">
+  						</ul>
+  					</div>
+  					<div class="skills-right col-lg-6"><img src="" alt="Здесь ваша картинка"></div>
+  				</div>
+  			</div>
+  		</sections>
+
+  		<!-- Parallax -->
+
+  		<section id="parallax" class="section parallax d-flex align-items-center">
+  			<div class="container">
+  				<div class="row justify-content-center">
+  					<ul class="parallax__list d-flex flex-row flex-wrap">
+  						<li class="parallax__item d-flex flex-row align-items-center">
+  							<img src="images/portfolio.png" alt="" class="parallax__item-img">
+  							<div class="parallax__item-title">
+  								<h2 class="parallax__item-title-text parallax-text">548</h2>
+  								<p class="parallax__item-desc parallax-text">PROJECTS COMPLETED</p>
+  							</div>
+  						</li>
+  						<li class="parallax__item d-flex flex-row align-items-center">
+  							<img src="images/time.png" alt="" class="parallax__item-img">
+  							<div class="parallax__item-title">
+  								<h2 class="parallax__item-title-text parallax-text">1465</h2>
+  								<p class="parallax__item-desc parallax-text">WORKING HOURS</p>
+  							</div>
+  						</li>
+  						<li class="parallax__item d-flex flex-row align-items-center">
+  							<img src="images/star.png" alt="" class="parallax__item-img">
+  							<div class="parallax__item-title">
+  								<h2 class="parallax__item-title-text parallax-text">612</h2>
+  								<p class="parallax__item-desc parallax-text">POSITIVE FEEDBACKS</p>
+  							</div>
+  						</li>
+  						<li class="parallax__item d-flex flex-row align-items-center">
+  							<img src="images/heart.png" alt="" class="parallax__item-img">
+  							<div class="parallax__item-title">
+  								<h2 class="parallax__item-title-text parallax-text">735</h2>
+  								<p class="parallax__item-desc parallax-text">HAPPY CLIENTS</p>
+  							</div>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  		</section>
+  	</div>
+
+  	<script src="js/index.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
