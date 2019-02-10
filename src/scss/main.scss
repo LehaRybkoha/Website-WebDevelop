@@ -20,6 +20,10 @@ $text-lightGreen: #10c9c3;
 @import "sections/about";
 @import "sections/skills";
 @import "sections/parallax";
+@import "sections/work";
+@import "sections/hoverOnImages";// style of hover for Work-examples 
+@import "sections/loadMore";
+@import "sections/workProcess";
 
 //media
 @import "adaptive/media";

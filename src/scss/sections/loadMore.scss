@@ -1,0 +1,19 @@
+.load {
+	min-height: 10vh;
+	background-color: #f5f5f5;
+}
+
+.load-title__link {
+	background: 0; //deleting defolt bootstrap styles for button 	
+}
+
+.load-title__link-text {
+	font-family: Montserrat;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: rem(20px);
+	color: #8e8e8e;
+	&:hover {
+		color: #555753;
+	}
+}

@@ -5,6 +5,9 @@
 	.parallax__item-desc {
 		white-space: normal;
 	}
+	.parallax, .parallax__list, .parallax__item {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 992px) { //laptop
