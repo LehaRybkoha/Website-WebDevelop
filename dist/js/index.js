@@ -10473,6 +10473,17 @@ return jQuery;
 
 /***/ }),
 
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css ***!
+  \**************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/scss/main.scss":
 /*!*****************************************************************************************************************************************************!*\
   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/scss/main.scss ***!
@@ -10493,6 +10504,36 @@ return jQuery;
 
 
 var content = __webpack_require__(/*! !../../../mini-css-extract-plugin/dist/loader.js!../../../css-loader!../../../sass-loader/lib/loader.js!./owl.carousel.css */ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./node_modules/owl.carousel/dist/assets/owl.carousel.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../mini-css-extract-plugin/dist/loader.js!../../../css-loader!../../../sass-loader/lib/loader.js!./owl.theme.default.min.css */ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -14492,14 +14533,19 @@ module.exports = function (css) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! owl.carousel/dist/assets/owl.carousel.css */ "./node_modules/owl.carousel/dist/assets/owl.carousel.css");
-/* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
-/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/main.scss */ "./src/scss/main.scss");
-/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/main.js */ "./src/js/main.js");
-/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_js_main_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ "./src/scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! owl.carousel/dist/assets/owl.carousel.css */ "./node_modules/owl.carousel/dist/assets/owl.carousel.css");
+/* harmony import */ var owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(owl_carousel_dist_assets_owl_carousel_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var owl_carousel_dist_assets_owl_theme_default_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! owl.carousel/dist/assets/owl.theme.default.min.css */ "./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css");
+/* harmony import */ var owl_carousel_dist_assets_owl_theme_default_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(owl_carousel_dist_assets_owl_theme_default_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
+/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/main.js */ "./src/js/main.js");
+/* harmony import */ var _js_main_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_js_main_js__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
 
 
 
@@ -14515,32 +14561,18 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {var owl1 = $('.owl-carousel-first');
+/* WEBPACK VAR INJECTION */(function($) {var owl = $('.owl-carousel');
 var owl2 = $('.owl-carousel-second');
-owl1.owlCarousel({
+owl.owlCarousel({
+    items: 1,
     center: true,
-    height: 40,
-    width: 40,
-    margin: 25,
+    margin: 10,
+    pagination: true,
+    dots: true,
     loop: true,
     autoplay: true,
     autoplayTimeout: 2500,
-    autoplayHoverPause: true,
-    responsiveClass: true,
-    responsive: {
-        480: {
-            items: 1
-        },
-        650: {
-            items: 3
-        },
-        960: {
-            items: 4
-        },
-        1200: {
-            items: 4
-        }
-    }
+    autoplayHoverPause: true
 });
 
 owl2.owlCarousel({

@@ -1,0 +1,31 @@
+.form {
+	background-color: $bg-lighterGrey;
+}
+
+.form-field {
+	padding-bottom: rem(150px);
+}
+
+.form-title {
+	padding: rem(100px) 0 rem(40px) 0;
+}
+
+.form-wrapper {
+	max-width: rem(900px) !important;
+}
+
+.form-control {
+	min-height: rem(50px);
+}
+
+.form-tittle_btn {
+	margin: rem(40px) auto 0 auto;
+}
+
+.form-icons {
+	font-size: rem(20px);
+	font-family: Montserrat;
+	&:hover {
+		color: $text-lightGreen;
+	}
+}

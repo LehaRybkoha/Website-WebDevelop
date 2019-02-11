@@ -1,29 +1,15 @@
-var owl1 = $('.owl-carousel-first');
+var owl = $('.owl-carousel');
 var owl2 = $('.owl-carousel-second');
-owl1.owlCarousel({
+owl.owlCarousel({
+    items: 1,
     center:true,
-    height:40,
-    width:40,
-    margin:25,
+    margin:10,
+    pagination:true,
+    dots:true,
     loop:true,
     autoplay:true,
     autoplayTimeout: 2500,
     autoplayHoverPause:true,
-    responsiveClass: true,
-    responsive:{
-        480:{
-            items:1
-        },
-        650:{
-            items:3
-        },            
-        960:{
-            items:4
-        },
-        1200:{
-            items:4
-        }
-    }
 });
 
 

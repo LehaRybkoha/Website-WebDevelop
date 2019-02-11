@@ -1,0 +1,26 @@
+.services {
+	background-color: $bg-lighterGrey;
+}
+
+.services-wrapper {
+	padding: rem(100px) 0;
+}
+
+.services__item {
+	text-align: center;
+}
+
+.services__item-title-text {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	color: $text-dark;
+	font-size: rem(16px);
+	font-weight: 600;
+	line-height: rem(30px); 
+	margin: rem(40px) 0 rem(20px) 0;
+}
+
+.services-icon {
+	font-size: rem(48px);
+	color: #656565;
+}

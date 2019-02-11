@@ -1,0 +1,42 @@
+.slider {
+	background-color: $text-lightGreen;
+	//height: 50vh;
+}
+
+.slider-wrapper {
+	max-width: rem(1050px) !important;
+}
+
+.slider__list {
+	padding: rem(150px) 0;
+}
+
+.slider__item-text {
+	font-family: Montserrat;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	font-size: rem(26px);
+	line-height: rem(36px);
+}
+
+.slider__item-signature {
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-size: rem(16px);
+	font-family: Montserrat;
+	line-height: rem(36px);
+	font-weight: 600;
+	margin: rem(30px) 0 rem(50px) 0;
+}
+	
+
+.owl-dot span {
+	color: #b0e8e6;
+	background-color: #b0e8e6 !important;
+}
+
+.owl-dot.active span {
+	background: #ffffff !important;
+}
