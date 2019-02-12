@@ -1,3 +1,5 @@
+/*skills section*/
+
 .slills {
 	height: 60vh;
 	background-color: $bg-lightGrey;
@@ -20,7 +22,7 @@
 	font-weight: 500;
 	color: #000;
 	font-size: rem(16px);
-	line-height: 30px;
+	line-height: rem(30px);
 	margin-bottom: rem(12px);
 }
 

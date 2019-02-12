@@ -7,7 +7,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 const devMode = process.env.NODE_ENV !== 'production';
+const isDevelopment = process.env.NODE_ENV === 'development';
+const isProduction = !isDevelopment;
 
 //module setting
 let conf = {
@@ -35,9 +39,25 @@ let conf = {
 				}
 			},
 			{
-				test: /\.scss|sass|css$/, 
-				use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' ]				
-			},
+      test: /\.scss|sass|css$/,
+      exclude: /node_modules/,
+      use: [
+        isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
+        'css-loader',
+        {
+          loader: 'postcss-loader',
+          options: {
+            plugins: [
+              isProduction ? require('cssnano') : () => {},
+              require('autoprefixer')({
+                browsers: ['last 2 versions']
+              })
+            ]
+          }
+        },
+        'sass-loader'
+      ]
+    },
 
 			{
 				test: /\.(gif|png|jpe?g|svg)$/,
@@ -57,7 +77,7 @@ let conf = {
     	  	'window.jQuery': 'jquery'
 	    }),
 		new MiniCssExtractPlugin({
-      		filename: 'style.css',
+      		filename: '[name].min.css',
       		allChunks: true,
     	}),
 		new HtmlWebpackPlugin({

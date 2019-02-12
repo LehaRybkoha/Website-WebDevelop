@@ -1,7 +1,8 @@
+/*first section*/
+
 .main {
 	background-color: $bg-grey;
 	height: 90vh;
-	margin-bottom: rem(100px);
 }
 
 
@@ -9,7 +10,7 @@
 	color: $text-title;
 	font-size: rem(50px);
 	font-weight: 600;
-	line-height: 48px;
+	line-height: rem(48px);
 	margin-bottom: rem(32px);
 }
 
@@ -17,7 +18,7 @@
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: rem(20px);
 	font-weight: 400;
-	line-height: 28px;
+	line-height: rem(28px);
 	color: $text-opacity;
 	max-width: rem(475px);
 	margin-bottom: rem(32px);

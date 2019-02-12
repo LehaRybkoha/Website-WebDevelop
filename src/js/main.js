@@ -1,5 +1,4 @@
-var owl = $('.owl-carousel');
-var owl2 = $('.owl-carousel-second');
+let owl = $('.owl-carousel');
 owl.owlCarousel({
     items: 1,
     center:true,
@@ -12,28 +11,14 @@ owl.owlCarousel({
     autoplayHoverPause:true,
 });
 
-
-owl2.owlCarousel({
-    loop:true,
-    margin: 100,
-    center: true,
-    autoWidth: true,
-    responsiveClass: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause:true,
-    responsive:{
-        480:{
-            items:3
-        },
-        650:{
-            items:3
-        },            
-        960:{
-            items:5
-        },
-        1200:{
-            items:5
-        }
+//connecting navbar to the top of our webpage
+$(document).ready(function(){
+  $("#header").affix({
+    offset: { 
+      top: 200 
     }
+  });
+  $("#header").on('affixed.bs.affix', function(){
+    alert("Меню навигации была прикреплена. Теперь она не прокручивается вместе со страницей.");
+  });
 });
