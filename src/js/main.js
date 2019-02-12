@@ -10,15 +10,3 @@ owl.owlCarousel({
     autoplayTimeout: 2500,
     autoplayHoverPause:true,
 });
-
-//connecting navbar to the top of our webpage
-$(document).ready(function(){
-  $("#header").affix({
-    offset: { 
-      top: 200 
-    }
-  });
-  $("#header").on('affixed.bs.affix', function(){
-    alert("Меню навигации была прикреплена. Теперь она не прокручивается вместе со страницей.");
-  });
-});
