@@ -12,34 +12,6 @@ owl.owlCarousel({
     autoplayHoverPause:true,
 });
 
-//work loading
-// const hiddenText = (textElement, textElement2, textElement3, textElement4, textElement5, textElement6, textElement7, textElement8) => {
-// 	textElement = document.getElementById('work-examples__item--afterClick');
-// 	textElement.parentNode.removeChild(textElement);
-// 	//second
-// 	textElement2 = document.getElementById('work-examples__item--afterClick2');
-// 	textElement2.parentNode.removeChild(textElement2);
-// 	//third
-// 	textElement3 = document.getElementById('work-examples__item--afterClick3');
-// 	textElement3.parentNode.removeChild(textElement3);
-// 	//four
-// 	textElement4 = document.getElementById('work-examples__item--afterClick4');
-// 	textElement4.parentNode.removeChild(textElement4);
-// 	//five
-// 	textElement5 = document.getElementById('work-examples__item--afterClick5');
-// 	textElement5.parentNode.removeChild(textElement5);
-// 	//six
-// 	textElement6 = document.getElementById('work-examples__item--afterClick6');
-// 	textElement6.parentNode.removeChild(textElement6);
-// 	//seven
-// 	textElement7 = document.getElementById('work-examples__item--afterClick7');
-// 	textElement7.parentNode.removeChild(textElement7);
-// 	//eight
-// 	textElement8 = document.getElementById('work-examples__item--afterClick8');
-// 	textElement8.parentNode.removeChild(textElement8);
-// };
-// hiddenText();
-
 const showText = (workList, textElement, textElement2, textElement3, textElement4, textElement5, textElement6, textElement7, textElement8) => {
 	workList = document.querySelector('.work-examples__list')
 
